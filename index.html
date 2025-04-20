@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete responsive tour and travel agency website design</title>
+
+    
+    <link rel="icon" href="p-2.jpg">
+
+    
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="wow fadeInDown" data-wow-duration="4s" >
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><img src="logo.gif" alt="logo"></a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home"  id="home">
+
+    <div class="content wow fadeInUp"data-wow-duration="4s">
+        <h3>Bright your future with <span>travels</span></h3>
+        <p>dicover new places with us, adventure awaits</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="vid-1 - Shortcut.lnk"></span>
+        <span class="vid-btn" data-src="vid-2 - Shortcut.lnk"></span>
+        <span class="vid-btn" data-src="vid-3 - Shortcut.lnk"></span>
+        <span class="vid-btn" data-src="vid-4 - Shortcut.lnk"></span>
+        <span class="vid-btn" data-src="vid-5 - Shortcut.lnk"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="vid-1 - Shortcut.lnk" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- book section starts  -->
+
+<section class="book wow fadeInUp" data-wow-duration="4s" id="book" >
+
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image " data-aos="fade-right"
+        data-aos="fade-right"
+        data-aos-offset="10"
+        data-aos-duration="500">
+            <img src="book-img.svg" alt="">
+        </div>
+
+        <form action="" data-aos="fade-up"data-aos-offset="40"
+        data-aos-offset="10"
+        data-aos-duration="600">
+            <div class="inputBox">
+                <h3>where to</h3>
+                <input type="text" placeholder="place name">
+            </div>
+            <div class="inputBox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn btn-submit" value="book now">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- book section ends -->
+
+<!-- packages section starts  -->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading wow fadeIn">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container owl-carousel first_carousel">
+
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <a href="p-1.jpg" data-lightbox="image-1" data-title="Mumbai"><img src="p-1.jpg" alt="image"></a>
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> mumbai </h3>
+                <p>Mumbai formerly known as Bombay is the capital city of the Indian state of Maharashtra</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <a href="p-2.jpg" data-lightbox="image-1" data-title="Hawaii"><img src="p-2.jpg" alt="image"></a>
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> hawaii </h3>
+                <p>Hawaii is an island state of the United States, in the Pacific Ocean about 2,000 miles (3,200 km) southwest of the U.S. mainland</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $70.00 <span>$100.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <a href="p-3.jpg" data-lightbox="image-3" data-title="Sydney"><img src="p-3.jpg" alt="image"></a>
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> sydney </h3>
+                <p>Sydney is the capital city of the state of New South Wales and the most populous city in Australia</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $130.00 <span>$150.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <a href="p-4.jpg" data-lightbox="image-4" data-title="My caption"><img src="p-4.jpg" alt="image"></a>
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> paris </h3>
+                <p>Paris is the capital and largest city of France</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $50.00 <span>$90.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- section item start  -->
+    <div class="box-container secound_carousel owl-carousel ">
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <a href="p-5.jpg" data-lightbox="image-1" data-title="Singapur"><img src="p-2.jpg" alt="image"></a>
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Singapur </h3>
+                <p>Singapore is an island country and city-state in Southeast Asia</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $70.00 <span>$100.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <a href="p-6.jpg" data-lightbox="image-3" data-title="America"><img src="p-3.jpg" alt="image"></a>
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> America </h3>
+                <p>The United States of America (USA), commonly known as the United States (U.S.) or America, is a country primarily located in North America</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $130.00 <span>$150.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <a href="p-2.jpg" data-lightbox="image-4" data-title="Paris"><img src="p-4.jpg" alt="image"></a>
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> paris </h3>
+                <p>Paris is the capital and largest city of France</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $50.00 <span>$90.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- packages section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading wow fadeIn">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p>"Stay Comfortable Without Breaking the Bank – Explore Affordable Hotels Perfect for Every Traveler!"</p>
+        </div>
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <i class="fas fa-utensils"></i>
+            <h3>food and drinks</h3>
+            <p>"Savor the Flavors of Adventure – Discover the Best Food & Drinks to Fuel Your Journey!"</p>
+        </div>
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safty guide</h3>
+            <p>"Travel Smart, Stay Safe – Your Trusted Companion for a Secure Adventure!"</p>
+        </div>
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <i class="fas fa-globe-asia"></i>
+            <h3>around the world</h3>
+            <p>"Explore Without Limits – Your Gateway to Adventures Around the World!" </p>
+        </div>
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <i class="fas fa-plane"></i>
+            <h3>fastest travel</h3>
+            <p>"Reach Your Destination in No Time – Discover the Fastest Travel Options!"      </p>
+        </div>
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>"Unleash Your Inner Explorer – Dive into Thrilling Adventures Awaiting You!"</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading wow fadeIn">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box wow fadeInUp"data-wow-duration="2s"  >
+            <img src="g-1.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>"Discover the World's Wonders – Explore Amazing Places That Take Your Breath Away!"</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box wow fadeInUp"data-wow-duration="2s">
+            <img src="g-2.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>"Discover the World's Wonders – Explore Amazing Places That Take Your Breath Away!"</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box wow fadeInUp"data-wow-duration="2s">
+            <img src="g-3.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>"Discover the World's Wonders – Explore Amazing Places That Take Your Breath Away!"</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box wow fadeInUp"data-wow-duration="2s">
+            <img src="g-4.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>"Discover the World's Wonders – Explore Amazing Places That Take Your Breath Away!"</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box wow fadeInUp"data-wow-duration="2s">
+            <img src="g-5.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>"Discover the World's Wonders – Explore Amazing Places That Take Your Breath Away!"</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box wow fadeInUp"data-wow-duration="2s">
+            <img src="g-6.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>"Discover the World's Wonders – Explore Amazing Places That Take Your Breath Away!"</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box wow fadeInUp"data-wow-duration="2s">
+            <img src="g-7.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>"Discover the World's Wonders – Explore Amazing Places That Take Your Breath Away!"</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box wow fadeInUp"data-wow-duration="2s">
+            <img src="g-8.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>"Discover the World's Wonders – Explore Amazing Places That Take Your Breath Away!"</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box wow fadeInUp"data-wow-duration="2s">
+            <img src="g-9.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>"Discover the World's Wonders – Explore Amazing Places That Take Your Breath Away!"</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="pic1.png" alt="">
+                    <h3>MD Mamun Hossain</h3>
+                    <p>"An Incredible Travel Companion!"
+                        "This website made planning my trip so easy! From hidden gems to must-visit landmarks, everything was perfectly curated. Highly recommend it to any traveler!"</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="pic2.png" alt="">
+                    <h3>Jonson Rew</h3>
+                    <p>"Perfect for First-Time Travelers!"
+                        "As a first-time explorer, I felt confident planning my vacation using this guide. The safety tips and detailed itineraries were a lifesaver!"</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="pic3.png" alt="">
+                    <h3>Adiba Gaw</h3>
+                    <p>"Unforgettable Adventures Await!"
+                        "Thanks to this guide, I discovered offbeat adventures that I wouldn’t have known otherwise. It turned my trip into an unforgettable experience."</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="pic4.png" alt="">
+                    <h3>MD Mamun Hossain</h3>
+                    <p>"Simple, Reliable, and Fun!"
+                        "Navigating this guide was such a breeze. It’s packed with practical info and fun suggestions that made my trip more enjoyable!"</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="contact-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn btn-submit" value="send message">
+        </form>
+
+    </div>
+    
+</section>
+
+<!-- contact section ends -->
+
+<!-- brand section  -->
+<section class="brand-container">
+
+    <div class="swiper-container brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="6.jpg" alt=""></div>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>We are passionate travelers dedicated to helping you explore the world with ease and excitement. From breathtaking destinations to insider tips, our mission is to provide reliable, up-to-date, and inspiring information for every kind of traveler.
+               Join us on this journey of discovery and adventure – because the world is waiting for you!"</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">india</a>
+            <a href="#">USA</a>
+            <a href="#">japan</a>
+            <a href="#">france</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="https://web.facebook.com/mamun3399">facebook</a>
+            <a href="#">instagram</a>
+            <a href="https://twitter.com/tmnewsbd24">twitter</a>
+            <a href="https://www.linkedin.com/in/md-mamun-hossain-239451193/">linkedin</a>
+        </div>
+
+
+
+
+
+
+    </div>
+
+    <h1 class="credit"> created by <span> #SHRUTI </span> | all rights reserved! </h1>
+
+</section>
